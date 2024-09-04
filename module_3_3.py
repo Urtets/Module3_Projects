@@ -1,5 +1,6 @@
 # Задача 1
 def print_params(a = 1, b = 'строка', c = True):
+    a = "Super_dog"
     print(a, b, c)
 
 b = 3
@@ -17,3 +18,4 @@ print_params(**values_dict)
 # Задача 3
 values_list_2 = ['Пёсель', 'Красавчик']
 print_params(*values_list_2, 42)
+print(values_list)
